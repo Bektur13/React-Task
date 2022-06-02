@@ -1,0 +1,31 @@
+.post__title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.post__table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.post__table tr th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.post__table tr:nth-child(even) {
+    background: #dddddd;
+}
+
+@media screen and (max-width: 412px) {
+    .post__table {
+        font-size: 11px;
+    }
+}

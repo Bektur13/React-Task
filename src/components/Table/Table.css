@@ -1,0 +1,30 @@
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+
+.table tr th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table tr:nth-child(even) {
+    background: #dddddd;
+}
+
+@media screen and (max-width: 414px) {
+    .table {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .table {
+        font-size: 10px;
+    }
+}
